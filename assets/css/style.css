@@ -4,11 +4,54 @@ body{
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica sans-serif';
     font-size: 18px;
     color: #777777;
-    background: #ffffff;
-    border-color: #dddddd;
+    background-image: src="assets/images/funky-lines.png";
+    border-color: #f0b4b4;
 }
 
-header{background-color: #4aaaa5}
+header{background-color: #4aaaa5;
+    float: left 33%;
+}
+
+ol{list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:#f8b2b2;
+}
+
+
+li{float: right;
+}
+
+a{display: block;
+    padding: 8px;
+    background-color: #f8b2b2;
+
+}
+a class{display: block;
+        color: white;
+        font-size: 50px;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+li a{ display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+}
+
+li a:hover{background-color: #4aaaa5;}
+
+main{background: #ffffff;
+    border: #dddddd;
+    padding: 25px 20px 375px 20px;
+    margin: 35px 175px 35px 175px;
+}
+
+img{float: left;
+}
 
 h1{background: #ffffff;
         border-color: #cccccc;
@@ -17,12 +60,5 @@ h1{background: #ffffff;
 }
 
 Footer{ background: #666666;
-}
-
-ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    color: green;
 }
 
