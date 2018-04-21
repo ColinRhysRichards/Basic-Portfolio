@@ -7,32 +7,32 @@ body{
 }
 
 body{
-    background: url('C:\Users\colin_000\dev\homework\homework1\Basic-Portfolio\assets\images\funky-lines.png');
-   
+    background: url'(assets\images\funky-lines.png)';
+    background-color: gold; 
 }
 
-ol!!!{list-style-type: none;
+ol{list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
     background-color:#ffffff;
 }
 
-.active!!!{margin-left: 190px;
+.active{margin-left: 190px;
     margin-right: 690px;
 }
-#colin!!!{display: block;
+#colin{display: block;
     padding: 8px;
     background-color: #4aaaa5;
 }
 
-a class!!!{display: block;
+a class{display: block;
         color: #666666;
         font-size: 50px;
         padding: 14px 16px;
         text-decoration: none;
 }
-li a!!!{ display: block;
+li a{ display: block;
     color: #666666;
     text-align: center;
     padding: 14px 16px;
@@ -41,7 +41,7 @@ li a!!!{ display: block;
     
 }
 
-li a:hover!!!{background-color: #4aaaa5;}
+li a:hover{background-color: #4aaaa5;}
 
 main{
     background: #ffffff;
@@ -76,32 +76,3 @@ Footer{ background: #4aaaa5;
         font-size: 12px;
         color: #cccccc;
 }
-
-
-
-
-
- 
-.topnav {
-    overflow: hidden;
-    background-color:#dddddd;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #4aaaa5;
-    color: white;
-  }
